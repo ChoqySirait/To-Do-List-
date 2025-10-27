@@ -2,7 +2,7 @@
 
 Aplikasi daftar tugas sederhana dan bersih yang dibuat menggunakan HTML, CSS, dan Vanilla JavaScript. Proyek ini menunjukkan implementasi manipulasi DOM dan persistence data menggunakan Local Storage di browser.
 
-![Demo Aplikasi To-Do List](GAMBAR_SCREENSHOT) 
+![Demo Aplikasi To-Do List] 
 ## ✨ Fitur Utama (Fungsionalitas)
 
 Aplikasi ini mencakup semua fungsi inti yang diharapkan dari To-Do List:
