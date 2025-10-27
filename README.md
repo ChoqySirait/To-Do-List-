@@ -1,30 +1,39 @@
-# 📋 To-Do-List Sederhana 
+# 🏴‍☠ To-Do List Nakama: Bajak Laut Yang Selalu Menyelesaikan Tugasnya, EA !
 
-Aplikasi daftar tugas sederhana dan bersih yang dibuat menggunakan HTML, CSS, dan Vanilla JavaScript. Proyek ini menunjukkan implementasi manipulasi DOM dan persistence data menggunakan Local Storage di browser.
+Aplikasi daftar tugas Front-End yang fungsional, dirancang dengan semangat petualangan One Piece. Proyek ini menunjukkan implementasi CRUD (Create, Read, Update, Delete) lengkap, manipulasi DOM dinamis, dan manajemen data menggunakan Local Storage.
 
-![Demo Aplikasi To-Do List] 
-## ✨ Fitur Utama (Fungsionalitas)
+![To-Do List Nakama]
+<img width="1919" height="1068" alt="image" src="https://github.com/user-attachments/assets/cfa094d1-035b-4bfc-aeb2-2c4b2d547348" />
 
-Aplikasi ini mencakup semua fungsi inti yang diharapkan dari To-Do List:
+## ✨ Fitur Kunci & Peningkatan UX
 
--   **➕ Tambah Tugas:** Memasukkan dan menyimpan tugas baru.
--   **❌ Hapus Tugas:** Menghapus tugas dari daftar secara permanen.
--   **✅ Tandai Selesai (Toggle):** Mengubah status tugas menjadi selesai (dicoret).
--   **💾 Persistence Data:** Tugas tersimpan secara lokal di *browser* (`localStorage`), sehingga data tidak hilang saat halaman di-*refresh* atau ditutup.
--   **🎨 Desain Responsif:** Tata letak yang bersih dan dapat diakses dengan baik di perangkat *mobile* maupun desktop.
+Repositori ini menampilkan beberapa fitur canggih yang melampaui To-Do List dasar:
 
-## 🛠️ Teknologi yang Digunakan
+* **Tema One Piece:** Desain visual unik dengan background bertema lautan, Ya Lautan One Piece
+* **CRUD Lengkap (Edit Teks):**
+    * **Edit Teks:** Klik ganda (*double-click*) pada tugas yang **Belum Selesai** untuk mengedit teksnya secara langsung.
+* **Aksi Tugas Intuitif:**
+    * **Toggle Status:** Tombol Ceklis/Lingkaran yang jelas (menggunakan Font Awesome) untuk mengubah status (Selesai $\leftrightarrow$ Belum Selesai).
+    * **Hapus Tugas:** Ikon tempat sampah untuk penghapusan dengan efek animasi *fade-out*.
+* **Filter Misi:** Menyortir tugas dengan cepat berdasarkan status: **Semua**, **Belum Selesai**, dan **Selesai**.
+* **Watermark Pribadi:** Penanda kepemilikan proyek di sudut kiri bawah.
+
+---
+
+## 🛠️ Fiturnya
 
 | Kategori | Teknologi | Deskripsi |
 | :--- | :--- | :--- |
-| **Struktur** | `HTML5` | Struktur dasar halaman web. |
-| **Gaya** | `CSS3` | Gaya visual dan desain responsif. |
-| **Logika** | `Vanilla JavaScript` | Logika inti aplikasi, termasuk manipulasi DOM. |
-| **Penyimpanan** | `localStorage` | Digunakan untuk menyimpan data tugas di sisi klien. |
+| **Inti** | `HTML5`, `CSS3`, `Vanilla JavaScript` | Fondasi pengembangan aplikasi web tanpa *framework*. |
+| **UX & Styling** | **Font Awesome** | Digunakan untuk ikon modern pada tombol aksi (Ceklis, Hapus). |
+| **Penyimpanan Data** | `localStorage` | Menyimpan data tugas secara persisten di *browser* klien. |
+| **Gaya Visual** | **CSS Flexbox & Transisi** | Untuk tata letak responsif, filter yang rapi, dan animasi penghapusan yang halus. |
+
+---
 
 ## 🚀 Cara Menjalankan
 
-Ikuti langkah-langkah sederhana ini untuk menjalankan proyek secara lokal di komputer Anda:
+Ikuti langkah-langkah sederhana ini untuk melihat aplikasi ini secara lokal di komputer Anda:
 
 1.  **Clone Repositori:**
     ```bash
@@ -35,10 +44,12 @@ Ikuti langkah-langkah sederhana ini untuk menjalankan proyek secara lokal di kom
     cd To-Do-List
     ```
 3.  **Buka File:**
-    Buka file `index.html` langsung di *browser* Anda (klik kanan > Open with > [Browser Pilihan Anda]).
+    Buka file **`index.html`** langsung di *browser* Anda (klik kanan > Open with > [Browser Pilihan Anda]).
 
-## Creator
+---
+
+## 👤 Creator
 
 Proyek ini dibuat oleh:
 
--   [ChogySirait](https://github.com/ChogySirait)
+-   **ChoqySirait** (GitHub: [@ChoqySirait](https://github.com/ChoqySirait))
